@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    padding: 45px;
+    font-family: sans-serif;
+}
+
+button {
+    width: 150px;
+    height: 33px;
+}
+
+.logout {
+    color: #b7625c;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.form-group {
+    margin-top: 30px;
+}
+
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+p {
+    margin-bottom: 15px;
+}
